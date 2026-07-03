@@ -1,0 +1,16 @@
+Phase 1: Indexing
+
+vector databases that are available :
+Dedicated Vector Databases: Built from the ground up for high-scale, specialized AI search and retrieval.
+
+Pinecone (Fully managed, cloud-native) <== we have choose this one
+Milvus (Highly scalable, open-source)
+Qdrant (Open-source with advanced filtering capabilities)
+Weaviate (Open-source with hybrid search capabilities)
+ChromaDB (Lightweight, developer-friendly)
+
+pip install -U langchain-community pypdf
+pip install -U langchain-text-splitters
+pip install -U langchain-anthropic
+pip install sentence-transformers
+pip install -qU langchain-qdrant
